@@ -37,7 +37,7 @@
     </section>
     <section id="menu">
         <h2>Our Menu</h2>
-        <table border="">
+        <table border="" id="menu_table">
             <caption><b>TuteDude Complete Taco Menu</b></caption>
             <thead>
             <tr>
@@ -72,7 +72,7 @@
             <tr>
                 <td>
                     Crunchy(Veggie)
-                    <table border="">
+                    <table border="" id ="nutrition_table">
                         <caption><i>Nutrition Info</i></caption>
                         <thead>
                         <tr>
@@ -125,7 +125,7 @@
             <tr>
                 <td>
                     2 Soft + Drink
-                    <table border="">
+                    <table border="" id="combo_nutrition_table">
                         <caption><i>Combo Meals Nutrition Facts</i></caption>
                         <thead>
                         <tr>
@@ -193,12 +193,12 @@
         <h2>Media Fun</h2>
         <h4>Listen to Taco Music</h4>
         <audio controls>
-            <source src="" type="audio/mp3">
+            <source src="Test.mp3" type="audio/mp3">
             Your browser does not support the audio element.
         </audio>
         <h4>Watch Taco Video</h4>
         <video controls height="300" width="300" >
-            <source src="" type="video/mp4">
+            <source src="Test(1).mp4" type="video/mp4">
             Your browser does not support the video tag.
         </video>
         <hr/>
@@ -206,7 +206,7 @@
     <section id ="feedback">
         <h2>Give Us Your Feedback</h2>
         <form>
-            <fieldset>
+            <fieldset id="user_info">
             <legend>Your Info</legend>
             <label for="name">Name:</label>
             <input type="text" id="name" name="name" required><br/><br/>
@@ -221,7 +221,7 @@
                 <option value="SVeggie">Soft(Veggie)</option>
             </select><br/><br/>
             </fieldset>
-            <fieldset>
+            <fieldset id="user_message">
             <legend>Your Message</legend>
             <label for="Message">Message:</label><br/>
             <textarea id="Message" name="comments" rows="8" cols="50"></textarea><br/><br/>
